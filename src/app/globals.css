@@ -276,8 +276,8 @@ h2 p {
 }
 
 /* SKILLS SECTION */
-.container {
-  width: 80%;
+.skill-container {
+  width: 70%;
 }
 
 .skillsContainer {
@@ -303,8 +303,6 @@ h2 p {
 .projects-container {
   display: flex;
   justify-content: space-between;
-  /* padding-left: 1rem;
-  margin-left: 1rem; */
 }
 
 .project {
@@ -389,6 +387,177 @@ h2 p {
   display: none;
 }
 
+/* CONTACT SECTION */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  background-color: #f1eaea9c;
+}
+
+.card2 {
+  padding: 2rem;
+  background-color: #070538;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.icons span {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.card2 a,
+p {
+  margin-left: 5px;
+}
+
+.container {
+  max-width: 500px;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.container button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #070538;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container button:hover {
+  background-color: #02003a;
+}
+
+.footer {
+  background-color: #02003a;
+  color: #fff;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+}
+
+.footer p {
+  color: #fff;
+}
+
+@media (max-width: 835px) {
+  /* ABOUT SECTION */
+
+  .abt-sec {
+    margin-top: 1rem;
+  }
+
+  .abt {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .img img {
+    width: 70%;
+    margin-left: 5rem;
+  }
+
+  .about-content {
+    width: 90%;
+    margin-left: 3rem;
+  }
+
+  .abt-d {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .abt-d h2:nth-child(2) {
+    margin-left: 0;
+  }
+
+  /* PROJECTS SECTION */
+  .projects-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-left: 0.5rem;
+  }
+
+  .project {
+    width: auto;
+    margin-bottom: 20px;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+
+  .project img {
+    width: 350px;
+    height: 200px;
+  }
+
+  .my-ml-6 {
+    margin-left: 1.5rem;
+  }
+
+  .image-overlay {
+    display: none;
+  }
+
+  .dis {
+    display: block;
+  }
+  .dis a {
+    color: #fff;
+  }
+
+  /* CONTACT */
+  .contact {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  /* SKILLS SECTION */
+  .container {
+    width: 90%;
+  }
+
+  /* PROJECTS SECTION */
+  .projects-container {
+    justify-content: center;
+  }
+
+  .project img {
+    width: 600px;
+    height: 300px;
+  }
+}
+
 @media (max-width: 769px) {
   .w-80 {
     width: 85%;
@@ -408,37 +577,6 @@ h2 p {
 
   .nav-link span {
     font-size: 28px;
-  }
-
-  /* ABOUT SECTION */
-
-  .abt-sec {
-    margin-top: 1rem;
-  }
-
-  .abt {
-    flex-direction: column;
-    margin-top: 0;
-  }
-
-  .img img {
-    width: 80%;
-    margin-left: 5rem;
-  }
-
-  .about-content {
-    width: 90%;
-    margin-left: 3rem;
-  }
-
-  .abt-d {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-
-  .abt-d h2:nth-child(2) {
-    margin-left: 0;
   }
 
   /* SKILLS SECTION */
@@ -465,11 +603,11 @@ h2 p {
 
   .projects-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
     padding-left: 0;
-    /* margin-left: 1rem; */
+    margin-left: 1rem;
   }
 
   .project {
@@ -578,6 +716,10 @@ h2 p {
   }
 
   /* SKILLS SECTION */
+  .skill-container {
+    width: 100%;
+  }
+
   .skills .skills-sec {
     margin-left: 0;
     margin-top: 0;
@@ -586,6 +728,7 @@ h2 p {
   /* PROJECTS */
   .projects-container {
     margin-left: 1rem;
+    justify-content: center;
   }
 
   .project img {
@@ -606,6 +749,10 @@ h2 p {
   }
   .dis a {
     color: #fff;
+  }
+
+  .contact-details {
+    flex-direction: column;
   }
 }
 

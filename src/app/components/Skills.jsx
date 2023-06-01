@@ -16,12 +16,12 @@ const Skills = () => {
 
   return (
     <div className="skills" id="skills1">
-      <div className="flex flex-col ml-10 mt-16 pt-20 pb-20 items-center skills-sec">
+      <div className="flex flex-col mt-16 pt-20 pb-20 items-center skills-sec">
         <h1 className="text text-3xl mb-10">
           My <span className=" myComponent">Skills</span>
         </h1>
 
-        <div className="container">
+        <div className="skill-container">
           <div className="skillsContainer">
             {skills.map((skill, index) => (
               <div key={index} className="skill">
