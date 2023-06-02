@@ -14,7 +14,7 @@ const Navbar = () => {
           <div>
             <div className="flex items-center justify-between py-3 md:py-2 md:block">
               {/* LOGO */}
-              <Image src="/logo.png" alt="logo image" width={150} height={0} />
+              <Image src="/logo.png" alt="logo image" width={150} height={10} />
               {/* HAMBURGER BUTTON FOR MOBILE */}
               <div className="md:hidden">
                 <button
