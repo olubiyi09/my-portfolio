@@ -11,7 +11,7 @@ const IntroSection = () => {
             <Image src="/seyi1.png" alt="seyi image" width={230} height={1} />
           </div>
         </div>
-        <h1 className="font-sans font-semibold text-4xl mt-5">
+        <h1 className="font-semibold text-4xl mt-5">
           MESHACH <span>OKEDIYA</span>
         </h1>
 

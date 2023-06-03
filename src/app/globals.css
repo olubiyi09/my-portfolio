@@ -10,10 +10,6 @@
   background-color: #070538;
 }
 
-.main {
-  /* background-color: #453ff5; */
-}
-
 .m-20 {
   margin-left: 80px;
 }
@@ -754,7 +750,4 @@ textarea {
   .contact-details {
     flex-direction: column;
   }
-}
-
-@media (max-width: 500px) {
 }
