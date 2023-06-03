@@ -751,3 +751,9 @@ textarea {
     flex-direction: column;
   }
 }
+
+@media (max-width: 370px) {
+  .about-btn {
+    font-size: 0.9rem;
+  }
+}
