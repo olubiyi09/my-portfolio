@@ -45,7 +45,7 @@ const Contact = () => {
             <div className="card2">
               <h3>My Contact Information</h3>
               <p>
-                Fill the form or contact me through other channels listed below
+                Fill the form or contact me through other channels listed below,
                 Thanks
               </p>
               <div className="icons mt-3">
