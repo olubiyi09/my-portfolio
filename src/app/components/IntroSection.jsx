@@ -3,7 +3,7 @@ import Link from "next/link";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const IntroSection = () => {
-  const profileImg = https://res.cloudinary.com/dhikuxujd/image/upload/v1697325659/aoububaaf6zrzxntwzqt.png
+  const profileImg = "https://res.cloudinary.com/dhikuxujd/image/upload/v1697325659/aoububaaf6zrzxntwzqt.png"
   return (
     <div className="intro mt-16" id="home1">
       <div className="intro-wrapper">
