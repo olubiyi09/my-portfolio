@@ -3,13 +3,12 @@ import Link from "next/link";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const IntroSection = () => {
-  const profileImg = "https://res.cloudinary.com/dhikuxujd/image/upload/v1697325659/aoububaaf6zrzxntwzqt.png"
   return (
     <div className="intro mt-16" id="home1">
       <div className="intro-wrapper">
         <div className="img-wrapper">
           <div className="img-bg">
-            <Image src={profileImg} alt="seyi image" width={230} height={1} />
+            <Image src="/seyi1.png alt="seyi image" width={230} height={1} />
           </div>
         </div>
         <h1 className="font-semibold text-4xl mt-5">
