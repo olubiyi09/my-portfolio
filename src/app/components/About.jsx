@@ -45,7 +45,7 @@ const About = () => {
               Email: olubiyi09@gmail.com
             </h2>
           </div>
-          <div className="flex abt-btns mt-7 about-btn">
+          <div className="st flex abt-btns mt-7 about-btn">
             <a
               href="https://drive.google.com/uc?export=download&id=1Iu0daV8pkQh0ax4nof7a11WkJ62qKZpj"
               download="Meshach_Resume.pdf"
