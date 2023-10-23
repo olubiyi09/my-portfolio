@@ -45,32 +45,17 @@ const About = () => {
               Email: olubiyi09@gmail.com
             </h2>
           </div>
-
-          {/* <div className="flex abt-btns mt-7 about-btn">
-            <button className="flex justify-center items-center btn-1 pl-5 pr-5 pb-1 pt-1 ">
-              <p className="mr-2">Download CV</p> <FaDownload size={15} />
-            </button>
-            <button className="flex justify-center items-center btn-2 pl-5 pr-5 pb-1 pt-1  ml-7">
-              <p className="mr-2">Contact Me</p>{" "}
-              <BsChevronDoubleRight size={15} />
-            </button>
-          </div> */}
-
           <div className="flex abt-btns mt-7 about-btn">
             <a
-              href="/MESHACH-OKEDIYA-RESUME.pdf"
-              download="Meshach_CV.pdf"
+              href="https://drive.google.com/uc?export=download&id=1Iu0daV8pkQh0ax4nof7a11WkJ62qKZpj"
+              download="Meshach_Resume.pdf"
+              className="flex justify-center items-center btn-1 pl-5 pr-5 pb-1 pt-1"
             >
-              <p className="flex justify-center items-center btn-1 pl-5 pr-5 pb-1 pt-1">
-                <p className="mr-2">Download CV</p> <FaDownload size={15} />
-              </p>
+              <p className="mr-2">Download CV</p> <FaDownload size={15} />
             </a>
-            <Link href="#contact1">
-              <p className="flex justify-center items-center btn-2 pl-5 pr-5 pb-1 pt-1 ml-7">
-                <p className="mr-2">Contact Me</p>{" "}
-                <BsChevronDoubleRight size={15} />
-              </p>
-            </Link>
+
+            <a href="#contact1" className="flex justify-center items-center btn-2 pl-5 pr-5 pb-1 pt-1 ml-7"><p className="mr-2">Contact Me</p>{" "}
+              <BsChevronDoubleRight size={15} /></a>
           </div>
 
 

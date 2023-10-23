@@ -271,6 +271,12 @@ h2 p {
   background-color: #ff1403;
 }
 
+.st a {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
 /* SKILLS SECTION */
 .skill-container {
   width: 70%;
