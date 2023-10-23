@@ -2,6 +2,7 @@ import Image from "next/image";
 import { MdCall, MdEmail } from "react-icons/md";
 import { FaDownload } from "react-icons/fa";
 import { BsChevronDoubleRight } from "react-icons/bs";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -45,7 +46,7 @@ const About = () => {
             </h2>
           </div>
 
-          <div className="flex abt-btns mt-7 about-btn">
+          {/* <div className="flex abt-btns mt-7 about-btn">
             <button className="flex justify-center items-center btn-1 pl-5 pr-5 pb-1 pt-1 ">
               <p className="mr-2">Download CV</p> <FaDownload size={15} />
             </button>
@@ -53,7 +54,26 @@ const About = () => {
               <p className="mr-2">Contact Me</p>{" "}
               <BsChevronDoubleRight size={15} />
             </button>
+          </div> */}
+
+          <div className="flex abt-btns mt-7 about-btn">
+            <a
+              href="/MESHACH-OKEDIYA-RESUME.pdf"
+              download="Meshach_CV.pdf"
+            >
+              <p className="flex justify-center items-center btn-1 pl-5 pr-5 pb-1 pt-1">
+                <p className="mr-2">Download CV</p> <FaDownload size={15} />
+              </p>
+            </a>
+            <Link href="#contact1">
+              <p className="flex justify-center items-center btn-2 pl-5 pr-5 pb-1 pt-1 ml-7">
+                <p className="mr-2">Contact Me</p>{" "}
+                <BsChevronDoubleRight size={15} />
+              </p>
+            </Link>
           </div>
+
+
         </div>
       </div>
     </div>
