@@ -115,6 +115,8 @@ ul a:hover {
 .intro-wrapper img {
   background-color: #ebebf7ab;
   border-radius: 50%;
+  width: 230px;
+  height: 230px;
 }
 
 .intro-wrapper h1 {
@@ -134,6 +136,12 @@ ul a:hover {
 .social *:hover {
   transform: translateY(-2px);
   transition: all 0.3s;
+}
+
+.img-bg {
+  width: 230px;
+  height: 230px;
+  
 }
 
 /* ABOUT SECTION */
