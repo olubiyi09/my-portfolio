@@ -22,6 +22,27 @@ const projects = [
     live: "https://royal-bus.onrender.com/",
     git: "https://github.com/olubiyi09/react-royal-bus-app",
   },
+  {
+    title: "Google clone website",
+    description: "NextJs Tailwind",
+    imageUrl: "/project4.png",
+    live: "https://google-clone-nextjs13-iota.vercel.app/",
+    git: "https://github.com/olubiyi09/google-clone-nextjs13",
+  },
+  {
+    title: "Pinvent web app",
+    description: "React, Node, ExpressJs, MongoDB Scss",
+    imageUrl: "/project5.png",
+    live: "https://my-pinvent-app.onrender.com/",
+    git: "https://github.com/olubiyi09/pinvent-app-frontend",
+  },
+  {
+    title: "Auth app",
+    description: "React, Node, ExpressJs, MongoDB Scss",
+    imageUrl: "/project6.png",
+    live: "https://my-new-auth-app.vercel.app/",
+    git: "https://github.com/olubiyi09/mern-auth-app-frontend",
+  },
 ];
 
 const Projects = () => {
