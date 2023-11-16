@@ -2,7 +2,6 @@ import Image from "next/image";
 import { MdCall, MdEmail } from "react-icons/md";
 import { FaDownload } from "react-icons/fa";
 import { BsChevronDoubleRight } from "react-icons/bs";
-import Link from "next/link";
 
 const About = () => {
   return (
