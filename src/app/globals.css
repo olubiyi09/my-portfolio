@@ -356,10 +356,13 @@ h2 p {
 .projects-container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .project {
-  width: 430px;
+  flex-basis: 330px;
+  flex-grow: 1;
+  /* width: ; */
   margin-bottom: 20px;
   cursor: pointer;
   margin-right: 1.5rem;
@@ -792,7 +795,7 @@ textarea {
   }
 
   .project img {
-    width: 350px;
+    width: 450px;
     height: 200px;
   }
 
