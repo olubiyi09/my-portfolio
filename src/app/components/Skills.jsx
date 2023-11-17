@@ -12,6 +12,9 @@ const Skills = () => {
     { name: "GitHub", logo: "/github.png" },
     { name: "Firebase", logo: "/firebase.png" },
     { name: "Redux", logo: "/redux.png" },
+    { name: "Node Js", logo: "/node.png" },
+    { name: "Express Js", logo: "/express.png" },
+    { name: "MongoDb", logo: "/mongo.png" },
   ];
 
   return (

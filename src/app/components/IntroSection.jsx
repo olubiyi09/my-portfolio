@@ -18,7 +18,7 @@ const IntroSection = () => {
           MESHACH <span>OKEDIYA</span>
         </h1>
 
-        <p className="text-white mt-2 text-lg">I'm a front-end developer</p>
+        <p className="text-white mt-2 text-lg">I am a web developer</p>
 
         <div className="flex mt-5  social">
           <Link legacyBehavior href="https://github.com/olubiyi09">

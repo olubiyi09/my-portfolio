@@ -19,11 +19,10 @@ const About = () => {
             <span className="myComponent">About</span> Me, I'm a Developer
           </h1>
           <p className="leading-6 ">
-            I'm Meshach Okediya, I am a dedicated front-end web developer from
-            Oyo state, Nigeria. I have a solid background in HTML, CSS, and
+            I am Meshach Okediya, I am a dedicated web developer from Nigeria. I have a solid background in HTML, CSS, and
             JavaScript, also competent in CSS frame works (Tailwind and
             Bootstrap) and also JavaScript library, React and Next Js the React
-            frame work. Web development is more than just a profession for me,
+            frame work, also NodeJs the Javascript for server-side and ExpressJs. Web development is more than just a profession for me,
             it's my passion, I love crafting my ideas into visually stunning and
             user friendly websites. I'm always thrilled to collaborate on
             interesting projects.
