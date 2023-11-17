@@ -117,10 +117,12 @@ ul a:hover {
   border-radius: 50%;
   width: 230px;
   height: 230px;
+  animation: slideLeft 1s ease-in-out;
 }
 
 .intro-wrapper h1 {
   color: #fff;
+  animation: slideRight 1s ease forwards;
 }
 
 .intro-wrapper h1 span {
@@ -133,6 +135,10 @@ ul a:hover {
   border-radius: 50%;
 }
 
+.social a {
+  border: 1px solid #fff;
+}
+
 .social *:hover {
   transform: translateY(-2px);
   transition: all 0.3s;
@@ -141,8 +147,30 @@ ul a:hover {
 .img-bg {
   width: 230px;
   height: 230px;
-  
 }
+
+/* KEYFRAMES ANIMATION */
+@keyframes slideRight {
+  0%{
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slideLeft {
+  0%{
+    transform: translateX(20%);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 
 /* ABOUT SECTION */
 .abt-sec {
@@ -153,6 +181,7 @@ ul a:hover {
 
 .about-img {
   padding: 5px;
+  animation: slideRight 1s ease forwards;
 }
 
 .abt {
@@ -167,6 +196,7 @@ ul a:hover {
 
 .about-content {
   width: 45%;
+  animation: slideLeft 1s ease-in-out;
 }
 
 .p-head {
