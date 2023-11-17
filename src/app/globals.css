@@ -774,6 +774,21 @@ textarea {
     margin-bottom: 5px;
   }
 
+  .st {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .st a {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+   }
+
+   .st a:nth-child(2) {
+    margin-top: 20px;
+   }
+
   /* SKILLS SECTION */
   .skill-container {
     width: 100%;
