@@ -23,11 +23,12 @@ const projects = [
     git: "https://github.com/olubiyi09/react-royal-bus-app",
   },
   {
-    title: "Google clone website",
-    description: "NextJs Tailwind",
-    imageUrl: "/project4.png",
-    live: "https://google-clone-nextjs13-iota.vercel.app/",
-    git: "https://github.com/olubiyi09/google-clone-nextjs13",
+    title: "Job Portal Application",
+    description: "NextJs, MongoDB, CSS, Tailwind",
+    imageUrl: "/job-portal.png",
+    // live: "https://google-clone-nextjs13-iota.vercel.app/",
+    live: "https://job-portal-app-lemon.vercel.app/",
+    git: "https://github.com/olubiyi09/job-portal-app",
   },
   {
     title: "Pinvent web app",
