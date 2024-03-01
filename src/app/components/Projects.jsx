@@ -73,13 +73,13 @@ const Projects = () => {
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>
                 <div className="flex live-git">
-                  <p className="dis">
-                    <Link legacyBehavior href={project.live}>
+                  <Link legacyBehavior href={project.live}>
+                    <p className="dis">
                       <a target="_blank" rel="noopener noreferrer">
                         Visit Live
                       </a>
-                    </Link>
-                  </p>
+                    </p>
+                  </Link>
                   <p className="my-ml-6">
                     <Link legacyBehavior href={project.git}>
                       <a target="_blank" rel="noopener noreferrer">
